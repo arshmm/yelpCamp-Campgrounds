@@ -1,0 +1,17 @@
+<%- include("partials/header") %>
+<h1 style="width: 30%; margin: 25px auto;">
+	SIGN UP!
+</h1>
+
+
+<form action="/register" method="POST">
+	<div style="width: 30%; margin: 25px auto;">
+		<input style="margin-top: 5px" class="form-control" type="text" placeholder="username" name="username">
+		<input style="margin-top: 5px" class="form-control" type="password" placeholder="password" name="password">
+		<button style="margin-top: 5px" class="btn btn-default">
+			Sign up
+		</button>
+	</div>
+	
+</form>
+<%- include("partials/footer") %>
